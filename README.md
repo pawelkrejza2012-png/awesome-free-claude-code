@@ -21,7 +21,7 @@ A curated list of free methods, alternative API endpoints, and local setups to r
 To redirect your Claude Code CLI to a free API, open your command prompt and run these variables before executing the `claude` command:
 
 ```cmd
-set ANTHROPIC_BASE_URL=https://openrouter.aiapi/v1
+set ANTHROPIC_BASE_URL=https://openrouter.ai/api/v1
 set ANTHROPIC_API_KEY=YOUR_FREE_OPENROUTER_KEY
 set ANTHROPIC_MODEL=meta-llama/llama-3-8b-instruct:free
 claude
