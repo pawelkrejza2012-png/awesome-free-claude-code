@@ -7,7 +7,7 @@ A curated list of free methods, alternative API endpoints, and local setups to r
 
 ## 🔥 Free API Endpoints & Proxies
 
-* **[Google AI Studio](https://google.com)** - Get a 100% free API key for Gemini 2.5 models with massive rate limits and no credit card required.
+* **[Google AI Studio](https://google.com)** - Get a 100% free API key for Gemini models with massive rate limits and no credit card required.
 * **[OpenRouter Free Models](https://openrouter.ai)** - Access free hosted models (Llama 3, Qwen, Mistral) through a unified OpenAI-compatible API link.
 * **[Groq Cloud](https://groq.com)** - Extremely fast open-source models with a generous free tier for developers.
 
@@ -16,14 +16,27 @@ A curated list of free methods, alternative API endpoints, and local setups to r
 * **[Ollama](https://ollama.com)** - Run powerful coding models (DeepSeek-Coder, Llama3, Codegemma) directly on your own GPU/CPU hardware.
 * **[LM Studio](https://lmstudio.ai)** - A desktop application to discover, download, and run local LLMs with a built-in local server setup.
 
-## 🛠️ Configuration Guide for Windows (CMD)
+---
 
+## 🛠️ Configuration Guides
+
+### Windows (Command Prompt - CMD)
 To redirect your Claude Code CLI to a free API, open your command prompt and run these variables before executing the `claude` command:
 
 ```cmd
 set ANTHROPIC_BASE_URL=https://openrouter.ai/api/v1
 set ANTHROPIC_API_KEY=YOUR_FREE_OPENROUTER_KEY
 set ANTHROPIC_MODEL=meta-llama/llama-3-8b-instruct:free
+claude
+```
+
+### macOS & Linux (Bash / Zsh)
+Open your terminal and run the following export commands before launching the CLI:
+
+```bash
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api/v1"
+export ANTHROPIC_API_KEY="YOUR_FREE_OPENROUTER_KEY"
+export ANTHROPIC_MODEL="meta-llama/llama-3-8b-instruct:free"
 claude
 ```
 
