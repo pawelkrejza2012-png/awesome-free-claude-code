@@ -7,7 +7,7 @@ A curated list of free methods, alternative API endpoints, and local setups to r
 
 ## 🔥 Free API Endpoints & Proxies
 
-* **[Google AI Studio](https://google.com)** - Get a 100% free API key for Gemini models with massive rate limits and no credit card required.
+* **[Google AI Studio](https://aistudio.google.com)** - Get a 100% free API key for Gemini models with massive rate limits and no credit card required.
 * **[OpenRouter Free Models](https://openrouter.ai)** - Access free hosted models (Llama 3, Qwen, Mistral) through a unified OpenAI-compatible API link.
 * **[Groq Cloud](https://groq.com)** - Extremely fast open-source models with a generous free tier for developers.
 
@@ -17,7 +17,6 @@ A curated list of free methods, alternative API endpoints, and local setups to r
 * **[LM Studio](https://lmstudio.ai)** - A desktop application to discover, download, and run local LLMs with a built-in local server setup.
 
 ---
-
 ## 🛠️ Configuration Guides
 
 ### Windows (Command Prompt - CMD)
@@ -40,5 +39,4 @@ export ANTHROPIC_MODEL="meta-llama/llama-3-8b-instruct:free"
 claude
 ```
 
----
 *Contributions, suggestions, and stars are highly appreciated! Let's build the ultimate resource for free AI coding tools together.*
