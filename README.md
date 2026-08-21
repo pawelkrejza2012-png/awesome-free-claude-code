@@ -39,4 +39,14 @@ export ANTHROPIC_MODEL="meta-llama/llama-3-8b-instruct:free"
 claude
 ```
 
+## 📊 Recommended Free Coding Models
+
+| Provider / Model Name | OpenRouter Model Slug | Context Window | Best For |
+| :--- | :--- | :--- | :--- |
+| **OpenRouter (Auto)** | `openrouter/free` | 200k | Automatically routes to the best available free model |
+| **Meta (Muse Spark)** | `meta/muse-spark-1.2:free` | 1M | Massively long code context & multi-file refactoring |
+| **NVIDIA (Nemotron Ultra)** | `nvidia/nemotron-3-ultra:free` | 1M | Deep logic, architecture design & fast code outputs |
+| **Cohere (North Mini Code)** | `cohere/north-mini-code:free` | 256k | Specialized, lightweight software engineering tasks |
+| **Google (Gemma 4)** | `google/gemma-4-26b-a4b:free` | 256k | Clean scripts, function calling & structured JSON data |
+
 *Contributions, suggestions, and stars are highly appreciated! Let's build the ultimate resource for free AI coding tools together.*
